@@ -1,0 +1,116 @@
+*{margin:0; 
+padding: 50;
+}                                            /*Não deixar que os itens da página atinjam as extremidades*/
+
+hr{
+    display: block;                         /*Não permite movimentação da linha*/
+    margin-top: 0.5em;                      /*Espaçamento entre o topo da margem*/
+    margin-bottom: 0.5em;                   /*Espaçamento entre a parte de baixo*/
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;                    /*Estilo da borda*/
+    border-width: 1px;                      /*Largura da borda*/
+    border-color: black;
+}
+
+.headerlinha{
+    margin-top: -40px;
+}
+
+header img{                                 /*Definições da imagem que estão dentro do cabeçalho*/
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+}
+
+header h1{                                  /*Definições do titulo que estão dentro do cabeçalho*/
+    color:rgb(255, 255, 255);            /*cor do texto*/
+    -webkit-text-stroke: 2px rgb(0, 0, 0) ;      /*contorno do texto*/
+    padding-top: 5px;                      /*espaçamento entre o topo e o texto*/
+}
+#menu ul{                                   /*ID para lista*/
+    list-style: none;                      /*Sem nenhum estilo na lista, tira os pontos*/
+    margin-left: 450px;
+}
+
+#menu li{
+    position: relative;                     /*posição reletiva do item da lista*/
+}
+
+#menu li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;                  /*sem estilo no texto*/
+    padding: 5px 10px;                      /*espaçamento entre os textos no menu*/
+    display: block;                         /*opções do menu bloqueadas na posição atual*/
+}
+
+#menu li a:hover{
+    background: #000000;                     /*fundo do efeito*/
+    color: #fff; 
+    text-shadow: 0px 0px 0px;               /*sombra do efeito*/
+}
+
+#menu li ul{
+    position: absolute;
+    top: 25px;                              /*espaçamento do topo*/
+    left: 10;                                /*espaçamento da esquerda*/
+    background-color: #fff;
+    display: none;
+}
+
+#menu li:hover ul, #menu li.over ul{
+    display: block;                         /*durante o efeito nao movera o menu*/
+}
+
+header, #menu, #menu ul{
+    display: flex;
+}
+
+footer hr {
+    margin-top: 550px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px; /*Largura da borda*/
+    border-color: darkslategray; /*Cor da borda*/
+  }
+
+
+  footer img{
+    width: 150px;
+    height: 150px;
+    margin-left: 1px;
+    }
+
+    footer h1{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    margin-left: 1px;
+    padding-bottom: 15px;
+    }
+
+ .footerlinha{
+        margin-bottom: -40px;
+}
+
+.titulo{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.produtos{
+    text-align: center;
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.footercontatosh3{
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke: 2px rgb(0, 0, 0);
+        margin-left: 1400px;
+        padding-bottom: 15px;
+}
